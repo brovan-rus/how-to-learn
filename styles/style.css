@@ -364,17 +364,17 @@ section {
 
 .footer__column-link:link {
   color: #fff;
-  text-decoration:none
+  text-decoration:none;
 }
 
 .footer__column-link:visited {
   color: #fff;
-  text-decoration:none
+  text-decoration:none;
 }
 
 .footer__column-link:active {
   color: #fff;
-  text-decoration:none
+  text-decoration:none;
 }
 
 .footer__column_content_social {
