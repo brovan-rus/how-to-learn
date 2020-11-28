@@ -9,10 +9,14 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*div {
+/* div {
    border: 1px red solid;
-}*/
+}
 
+section {
+  border: 1px red solid;
+}
+*/
 
 
 .header {
@@ -23,6 +27,7 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -36,6 +41,12 @@
   top: 30px;
   left: 64px;
   z-index: 2;
+}
+
+.logo_place_footer {
+  background-image: url('../images/logo_place_footer.svg');
+  height: 35px;
+
 }
 
 .header__title {
@@ -200,6 +211,8 @@
   align-items: center;
   flex-direction: column;
   height: 790px;
+  background-color: #f2f2f2;
+  z-index: 0;
 }
 
 .feynman__title {
@@ -211,6 +224,7 @@
   padding: 0;
   text-align: center;
   font-weight: bold;
+  z-index: 2;
 }
 
 .feynman__subtitle {
@@ -219,6 +233,7 @@
   font-size: 36px;
   margin: 0;
   font-weight: normal;
+  z-index: 2;
 }
 
 .feynman__link {
@@ -230,6 +245,7 @@
   margin: 0;
   text-decoration: none;
   color: #2f80ed;
+  z-index: 2;
 }
 
 .feynman__image {
@@ -238,7 +254,7 @@
   left: 0;
   width: 867px;
   height: 637px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .kaufman {
@@ -246,7 +262,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+  background-color: #1f1f1f;
   margin: 0;
   padding: 90px 0;
   overflow: hidden;
@@ -285,8 +301,94 @@
   height: 877px;
   margin: 0;
   padding: 0;
+}
+
+.footer {
+  padding: 60px 0 40px 0;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  display: flex;
+  justify-content: start;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-links {
+  padding: 20px 0 16px 0;
+  margin: 0;
 
 }
 
+.footer__column-link {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  display: flex;
+}
+
+.footer__column-link:link {
+  color: #fff;
+  text-decoration:none
+}
+
+.footer__column-link:visited {
+  color: #fff;
+  text-decoration:none
+}
+
+.footer__column-link:active {
+  color: #fff;
+  text-decoration:none
+}
+
+.footer__column_content_social {
+
+}
+
+.footer__social_icon {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0 10px 0 0;
+  display: flex;
+  align-self: center;
+
+}
 
 
