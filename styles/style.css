@@ -31,12 +31,16 @@ section {
   /* выше установили ограничения для секции */
 }
 
+.main {
+  box-sizing: border-box;
+}
+
 .logo {
-  height: 32px;
   width: 183px;
 }
 
 .logo_place_header {
+  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -134,12 +138,12 @@ section {
 
 .two-columns__paragraph {
   padding: 0;
-  margin: 0;
+  margin: 0 0 30px 0;
 
 }
 
-.two-columns__paragraph:nth-of-type(2) {
-  padding: 30px 0;
+.two-columns__paragraph:last-child {
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -152,6 +156,7 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 0 0 100px 0;
 }
 
 .section-title {
@@ -177,7 +182,6 @@ section {
   width: 1100px;
   display: flex;
   flex-flow: row wrap;
-  padding: 0 0 100px 0;
   justify-content: space-between;
   margin: 0;
 
@@ -213,6 +217,7 @@ section {
   height: 790px;
   background-color: #f2f2f2;
   z-index: 0;
+  padding-top: 100px;
 }
 
 .feynman__title {
@@ -294,13 +299,12 @@ section {
 
 .kaufman__triangle {
   position: absolute;
-  top: 0;
+  bottom: 0px;
   right: -210px;
-  background-image: url('/images/kaufman-triangle.svg');
+  top: 0;
   width: 877px;
   height: 877px;
-  margin: 0;
-  padding: 0;
+
 }
 
 .footer {
@@ -308,6 +312,7 @@ section {
   background-color: #1f1f1f;
   display: flex;
   justify-content: center;
+  min-height: 350px;
 }
 
 .footer__columns {
@@ -381,7 +386,7 @@ section {
 
 }
 
-.footer__social_icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin: 0;
