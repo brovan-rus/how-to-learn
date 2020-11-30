@@ -184,6 +184,7 @@ section {
   flex-flow: row wrap;
   justify-content: space-between;
   margin: 0;
+  padding: 0;
 
 
   }
