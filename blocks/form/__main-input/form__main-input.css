@@ -1,0 +1,14 @@
+.form__main-input {
+  font-family: inherit;
+  border: 0;
+  width: 50%;
+  padding: 5px;
+  margin: 0 0 10px 20px;
+  height: 30px;
+
+}
+
+.form__main-input:focus {
+  outline-color: #2f80ed;
+}
+

@@ -1,0 +1,12 @@
+.form__text-input {
+    font-family: inherit;
+    border: 0;
+    width: 50%;
+    padding: 5px;
+    margin: 0 0 6px 20px;
+    height: 200px;
+  }
+
+  .form__text-input:focus {
+    outline-color: #2f80ed;
+  }
