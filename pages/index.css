@@ -28,7 +28,7 @@
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
-@import url(../blocks/two-columns/__brief/_width/two-columns__brief_width_wide.css);
+@import url(../blocks/two-columns/__brief/_place/two-columns__brief_place_form.css);
 
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);

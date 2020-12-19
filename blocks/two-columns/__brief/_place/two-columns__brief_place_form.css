@@ -1,0 +1,14 @@
+.two-columns__brief_place_form {
+  width: 350px;
+  margin-bottom: 6px;
+  align-self: center;
+  justify-self: center;
+  height: 30px;
+  padding: 5px;
+  line-height: 30px;
+}
+
+.two-columns:last-child .two-columns__brief_place_form {
+  padding-top: 5px ;
+  align-self: baseline;
+}
